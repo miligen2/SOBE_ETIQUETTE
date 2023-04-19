@@ -1,0 +1,64 @@
+.nav{
+    list-style: none;
+    display: flex;
+    background: coral;
+    box-shadow: 10px 10px 25px black;
+
+}
+body{
+    margin: 0;
+}
+header{
+    box-shadow: 1px 1px 10px ;
+    width: 100%;
+}
+
+#imgnav{
+
+    width: 6%;
+
+}
+
+.container{
+/* Ajouter box-sizing */
+    box-sizing : border-box;
+    border-radius:10px;
+    background-color:#f2f2f2;
+    padding:20px;
+    width: 100%;
+    /* redéfinition 400 + 2*20 */
+    max-width: 25%;
+    margin: 20vh auto;
+    box-shadow: 10px 10px 10px 10px  rgba(0, 0, 0, 0.301);
+ }
+
+    
+    input[type=text], textarea, input[type=email],select {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        margin-right: 0px;
+        margin-left: 0px;
+        resize: vertical;
+    }
+    #button{
+        box-sizing:border-box ;
+        width: 100%;
+        margin: 0 auto;
+        max-width:fit-content;
+        border: 1px solid #ccc;
+        padding: 5px;
+        border-radius: 5px;
+    
+    }
+    #button:hover{
+        background-color: #ccc;
+        border-color: black;
+    }
+
+    
+    

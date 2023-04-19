@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js"></script>
+  <title>étiquette</title>
+</head>
+<body>
+    <header>
+        <img src="img/SOBE_Invest_2021.png" alt="Logo Sobe" id="imgnav">
+    </header>
+    <div class="container">
+        <h1>Formulaire d'étiquette</h1>
+        <form>
+          <label for="client">Nom du client</label>
+          <input type="text"  id="client" placeholder="Nom du Client" maxlength="22">
+      
+          <label for="machine">Machine</label>
+          <select id="machine">
+            <option>Choisir une option </option>
+            <option value="Norm">Norm</option>
+            <option value="Con-Trex">Con-Trex</option>
+            <option value="Norm-reconditionnée">Norm/reconditionnée</option>
+            <option value="Con-Trex-reconditionnée ">Con-Trex/reconnditionnée</option>
+          </select>
+      
+          <label for="societe">Société</label>
+          <select id="societe">
+            <option>Choisir une option </option>
+            <option value="Athlex">Athlex</option>
+            <option value="Medimex">Medimex</option>
+            <option value="Medimex">Medathlex</option>
+          </select>
+          <div id="editor"></div>
+          <button id="button">Télécharger le PDF</button>
+        </form>
+      </div>
+ 
+      <script src="script.js">
+
+      </script>
+
+      
+    
+</body>
+</html>
